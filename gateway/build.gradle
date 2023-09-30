@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+}
+
+group 'com.laplace.api'
+version '1.0.0'
+
+sourceCompatibility = 11
+
+apply plugin: 'application'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'java'
+
+
+springBoot {
+    buildInfo()
+}
+
+archivesBaseName = 'laplace-api-gateway'
+mainClassName = "com.laplace.api.gateway.MainApplication"
+
+bootRun {
+    args = ["--spring.profiles.active=" + project.profiles, "--user.timezone=UTC"]
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    compile project(':cms')
+    compile project(':webclient')
+    compile project(':file-management')
+    compile project(':service-common')
+    compile project(':security-common')
+}
+
+
+jar {
+    manifest {
+        attributes 'Main-Class': { mainClassName }
+    }
+}
+

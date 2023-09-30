@@ -1,0 +1,16 @@
+rootProject.name = 'laplace-api'
+
+include 'webclient'
+include 'service-common'
+include 'security-common'
+include 'cms'
+include 'gateway'
+include 'file-management'
+
+project(':service-common').projectDir = "$rootDir/service-common" as File
+project(':security-common').projectDir = "$rootDir/security-common" as File
+project(':webclient').projectDir = "$rootDir/webclient" as File
+project(':cms').projectDir = "$rootDir/cms" as File
+project(':gateway').projectDir = "$rootDir/gateway" as File
+project(':file-management').projectDir = "$rootDir/file-management" as File
+

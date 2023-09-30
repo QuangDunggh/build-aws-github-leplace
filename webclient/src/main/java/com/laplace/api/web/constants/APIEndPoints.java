@@ -1,0 +1,83 @@
+package com.laplace.api.web.constants;
+
+public final class APIEndPoints {
+
+  public static final String SEARCH_CRITERIA = "/p/search/criteria";
+  public static final String BRANDS = "/p/brands";
+  public static final String POPULAR = "/popular";
+  public static final String GOODS = "/p/goods";
+  public static final String STORES = "/p/stores";
+  public static final String ADDRESS = "/a/address";
+  public static final String DELIVERY = "/delivery";
+  public static final String CATEGORIES = "/categories";
+  public static final String SEARCH = "/search";
+  public static final String AUTH = "/p/auth";
+  public static final String SIGN_UP = "/signup";
+  public static final String ACTIVATE = "/activate";
+  public static final String FORGOT_PASSWORD = "/forgot-password";
+  public static final String RESET_PASSWORD = "/reset-password";
+  public static final String ARCHIVE = "/archive";
+  public static final String COMPANY = "/p/company";
+  public static final String TWITTER_REQUEST_TOKEN = "/twitter/request-token";
+  public static final String TWITTER_ACCESS_TOKEN = "/twitter/access-token";
+  public static final String APP_USER = "/a/user";
+  public static final String SELLER = "/a/seller";
+  public static final String CART = "/a/cart";
+  public static final String PROFILE = "/profile";
+  public static final String EMAIL = "/email";
+  public static final String PASSWORD = "/password";
+  public static final String PROFILE_ADDRESS = "/address";
+  public static final String PROFESSIONS = "/a/professions";
+  public static final String CUSTOMER = "/a/stripe/customers";
+  public static final String PAYMENT = "/a/pay-jp/payment";
+  public static final String TOGGLE_SNS_AUTH = "/sns";
+  public static final String CART_TOKENS = CART + "/tokens";
+  public static final String REGISTER_POLICY = "/a/register-policies";
+  public static final String INQUIRY = "/p/inquiry";
+  public static final String LOGOUT = "/logout";
+  public static final String ERROR = "/error";
+  public static final String ITEMS = "/a/items";
+  public static final String CREATE = "/create";
+  public static final String PATH_VARIABLE_ID = "/{id}";
+  public static final String SELL_CONDITION = PATH_VARIABLE_ID + "/sell-condition";
+  public static final String EDIT_SELL_CONDITION = PATH_VARIABLE_ID + "/sell-condition/edit";
+  public static final String PAUSE_DISPLAY = PATH_VARIABLE_ID + "/pause-display";
+  public static final String SUSPEND_ITEM = PATH_VARIABLE_ID + "/suspend";
+
+  public static final String FILE_UPLOAD = "/a/file-upload";
+  public static final String PRE_SIGNED_URL = "/pre-signed-url";
+  public static final String FILE_UPLOAD_DATA_VALIDATOR = "/validator";
+  public static final String NEW_ARRIVAL = "/new-items";
+  public static final String TOP_PAGE_ITEMS = "/p/items";
+  public static final String POPULAR_DESIGNER = "/popular-designer";
+  public static final String USER_CHOICE = "/user-choice";
+  public static final String TOP_PAGE_USER = "/p/users";
+  public static final String BEST_SELLER = "/best-seller";
+  public static final String FAVORITE = "/a/items" + PATH_VARIABLE_ID + "/favorite";
+  public static final String FOLLOW = APP_USER + PATH_VARIABLE_ID + "/follow";
+  public static final String FOLLOWER = "/a/follower";
+  public static final String RELATED_ITEMS = "/related-items";
+  public static final String SELLER_ALL_ITEMS = "/seller-items" + PATH_VARIABLE_ID;
+
+  public static final String CLOSET = "/a/closet";
+  public static final String MY_CLOSET = "/my-closet";
+  public static final String SELL_CLOSET = "/sell-closet";
+  public static final String FAVORITE_CLOSET = "/favorite-closet";
+  public static final String ITEM_PACKAGE = "/a/item-package";
+  public static final String PURCHASE = "/a/purchase";
+  public static final String PAYMENT_HISTORY = "/a/payment";
+  public static final String DEPOSITS = "deposits";
+  public static final String EXPENDITURE = "expenditure";
+  public static final String ID_VERIFICATION = "/a/user/verification";
+  public static final String BANKS = "/banks";
+  public static final String INITIAL_SETTINGS = "/a/initial-settings";
+  public static final String WRAPPING_OPTIONS = "/wrapping-options";
+  public static final String CATEGORY = "p/category";
+
+  public static final String LAMBDA = "/p/lambda";
+  public static final String CANCEL_SALE_ITEM = "/cancel-sale-item" + PATH_VARIABLE_ID;
+  public static final String UPDATE_ID = "/update-verification-documents" + PATH_VARIABLE_ID;
+  public static final String NEGOTIATE = "/a/items" + PATH_VARIABLE_ID + "/negotiate";
+  public static final String NOTIFICATION = "/a/notifications";
+  public static final String REMINDING_EXPIRED_DATE = "/reminding-expired-date";
+}

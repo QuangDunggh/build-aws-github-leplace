@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <appender class="ch.qos.logback.core.rolling.RollingFileAppender" name="RollingFile">
+    <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+      <Pattern>
+        %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [rId %X{requestId}] %-5level %logger{36} \(%L\) -
+        %msg%n
+      </Pattern>
+    </encoder>
+    <file>logs/logger.log</file>
+
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+      <!-- rollover daily -->
+      <fileNamePattern>logs/archived/logger.%d{yyyy-MM-dd}.%i.log.tar.gz</fileNamePattern>
+      <maxFileSize>10MB</maxFileSize>
+    </rollingPolicy>
+  </appender>
+  <appender class="ch.qos.logback.core.ConsoleAppender" name="Console">
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <Pattern>
+        %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] [rId %X{requestId}] %-5level %logger{36} \(%L\) -
+        %msg%n
+      </Pattern>
+    </layout>
+  </appender>
+
+  <springProfile name="prod">
+
+    <logger additivity="false" level="ERROR" name="org.springframework">
+      <appender-ref ref="Console"/>
+      <appender-ref ref="RollingFile"/>
+    </logger>
+
+    <logger additivity="false" level="INFO" name="org.elasticsearch">
+      <appender-ref ref="Console"/>
+      <appender-ref ref="RollingFile"/>
+    </logger>
+
+    <logger additivity="false" level="INFO" name="org.hibernate">
+      <appender-ref ref="Console"/>
+      <appender-ref ref="RollingFile"/>
+    </logger>
+
+    <logger additivity="false" level="INFO" name="com.laplace">
+      <appender-ref ref="Console"/>
+      <appender-ref ref="RollingFile"/>
+    </logger>
+
+    <logger additivity="false" level="DEBUG" name="com.laplace">
+      <appender-ref ref="Console"/>
+      <appender-ref ref="RollingFile"/>
+    </logger>
+
+    <logger additivity="false" level="ERROR" name="com.laplace">
+      <appender-ref ref="Console"/>
+      <appender-ref ref="RollingFile"/>
+    </logger>
+  </springProfile>
+
+  <springProfile name="!prod">
+
+    <logger additivity="false" level="INFO" name="org.springframework.data.elasticsearch">
+      <appender-ref ref="Console"/>
+      <appender-ref ref="RollingFile"/>
+    </logger>
+
+    <logger additivity="false" level="ERROR" name="org.springframework">
+      <appender-ref ref="Console"/>
+      <appender-ref ref="RollingFile"/>
+    </logger>
+
+    <logger additivity="false" level="INFO" name="org.elasticsearch">
+      <appender-ref ref="Console"/>
+      <appender-ref ref="RollingFile"/>
+    </logger>
+
+    <logger additivity="false" level="INFO" name="org.hibernate">
+      <appender-ref ref="Console"/>
+      <appender-ref ref="RollingFile"/>
+    </logger>
+
+    <logger additivity="false" level="INFO" name="com.laplace">
+      <appender-ref ref="Console"/>
+      <appender-ref ref="RollingFile"/>
+    </logger>
+
+    <logger additivity="false" level="DEBUG" name="com.laplace">
+      <appender-ref ref="Console"/>
+      <appender-ref ref="RollingFile"/>
+    </logger>
+
+    <logger additivity="false" level="ERROR" name="com.laplace">
+      <appender-ref ref="Console"/>
+      <appender-ref ref="RollingFile"/>
+    </logger>
+  </springProfile>
+
+  <statusListener class="ch.qos.logback.core.status.NopStatusListener"/>
+
+</configuration>

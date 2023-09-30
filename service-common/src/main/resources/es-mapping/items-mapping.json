@@ -1,0 +1,186 @@
+{
+  "properties": {
+    "_class": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "blacklisted": {
+      "type": "boolean"
+    },
+    "brandId": {
+      "type": "long"
+    },
+    "brandName": {
+      "type": "text",
+      "copy_to" : [
+        "keywords"
+      ]
+    },
+    "category": {
+      "type": "keyword",
+      "copy_to" : [
+        "keywords"
+      ]
+    },
+    "color": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "coverImage": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "createdBy": {
+      "type": "long"
+    },
+    "createdOn": {
+      "type": "long"
+    },
+    "deliveryFeeBearer": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "descriptions": {
+      "type": "text",
+      "copy_to" : [
+        "keywords"
+      ]
+    },
+    "dimensions": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "discountPercentage": {
+      "type": "long"
+    },
+    "displayPrice": {
+      "type": "long"
+    },
+    "displayRequestDate": {
+      "type": "long"
+    },
+    "estimatedPickUpTimeByLaplace": {
+      "type": "long"
+    },
+    "favoriteCount": {
+      "type": "long"
+    },
+    "hidden": {
+      "type": "boolean"
+    },
+    "id": {
+      "type": "keyword"
+    },
+    "itemName": {
+      "type": "text",
+      "copy_to" : [
+        "keywords"
+      ]
+    },
+    "judgementStatus": {
+      "type": "keyword"
+    },
+    "lastUpdatedBy": {
+      "type": "long"
+    },
+    "lastUpdatedOn": {
+      "type": "long"
+    },
+    "onHoldAt": {
+      "type": "long"
+    },
+    "physicalCondition": {
+      "type": "keyword"
+    },
+    "pickUp": {
+      "type": "boolean"
+    },
+    "pickUpAt": {
+      "type": "long"
+    },
+    "publishedAt": {
+      "type": "long"
+    },
+    "receiptAvailable": {
+      "type": "boolean"
+    },
+    "receiptImage": {
+      "type": "text"
+    },
+    "sellerEmail": {
+      "type": "text",
+      "copy_to" : [
+        "keywords"
+      ]
+    },
+    "sellerId": {
+      "type": "long"
+    },
+    "sellerPurchaseLocation": {
+      "type": "keyword"
+    },
+    "sellerPurchaseTime": {
+      "type": "keyword"
+    },
+    "size": {
+      "type": "text",
+      "fields": {
+        "keyword": {
+          "type": "keyword",
+          "ignore_above": 256
+        }
+      }
+    },
+    "status": {
+      "type": "keyword"
+    },
+    "subCategory": {
+      "properties": {
+        "en": {
+          "type": "keyword",
+          "copy_to" : [
+            "keywords"
+          ]
+        },
+        "ja": {
+          "type": "keyword",
+          "copy_to" : [
+            "keywords"
+          ]
+        }
+      }
+    },
+    "keywords": {
+      "type": "text",
+      "analyzer": "kuromoji"
+    },
+    "targetAudience": {
+      "type": "keyword"
+    }
+  }
+}

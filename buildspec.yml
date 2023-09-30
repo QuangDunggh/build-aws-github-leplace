@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto11
+  build:
+    commands:
+      - echo Build started on `date`
+  post_build:
+    commands:
+      - echo Build completed on `date`
+    name: chmod permissions
+    command: chmod +x ./gradlew
+      - ./gradlew clean build
+      - cp ./gateway/build/libs/laplace-api-gateway-1.0.0.jar application.jar
+artifacts:
+  files:
+    - application.jar
+    - appspec.yml
+    - .ebextensions/**/*
+  discard-paths: no

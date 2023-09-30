@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'java-library'
+
+archivesBaseName = 'laplace-api-cms'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    implementation project(':security-common')
+    implementation project(':service-common')
+}
+

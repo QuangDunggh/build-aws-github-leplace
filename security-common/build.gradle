@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'com.laplace.api'
+version '1.0.0'
+
+sourceCompatibility = 11
+
+apply plugin: 'java-library'
+
+archivesBaseName = 'laplace-security-common'
+
+dependencies {
+    implementation project(':service-common')
+    // https://mvnrepository.com/artifact/org.twitter4j/twitter4j-core
+    compile group: 'org.twitter4j', name: 'twitter4j-core', version: '4.0.7'
+}
+
+
+

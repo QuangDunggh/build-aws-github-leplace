@@ -1,0 +1,686 @@
+{
+  "4000": {
+    "level": "ERROR",
+    "message": "ログインID又はパスワードに誤りがあります"
+  },
+  "4001": {
+    "level": "ERROR",
+    "message": "メールアドレスに誤りがあります"
+  },
+  "4002": {
+    "level": "ERROR",
+    "message": "無効なトークンです。再度アクセスしてください"
+  },
+  "4003": {
+    "level": "ERROR",
+    "message": "パスワードに誤りがあります"
+  },
+  "4004": {
+    "level": "ERROR",
+    "message": "ユーザー情報を確認できません"
+  },
+  "4005": {
+    "level": "ERROR",
+    "message": "メールアドレスを入力してください"
+  },
+  "4006": {
+    "level": "ERROR",
+    "message": "パスワードは8文字以上、半角英数字のみを使用してください。"
+  },
+  "4007": {
+    "level": "ERROR",
+    "message": "支払いを完了できませんでした"
+  },
+  "4008": {
+    "level": "ERROR",
+    "message": "ニックネームを登録してください"
+  },
+  "4009": {
+    "level": "ERROR",
+    "message": "メールアドレスが重複しています"
+  },
+  "4010": {
+    "level": "ERROR",
+    "message": "トークンの有効期限が切れました"
+  },
+  "4011": {
+    "level": "ERROR",
+    "message": "メールアドレスが見つかりません"
+  },
+  "4012": {
+    "level": "ERROR",
+    "message": "ユーザー情報は既に登録されています"
+  },
+  "4013": {
+    "level": "ERROR",
+    "message": "会員登録を完了してから操作してください"
+  },
+  "4014": {
+    "level": "ERROR",
+    "message": "注文情報が存在しません"
+  },
+  "4015": {
+    "level": "ERROR",
+    "message": "会社情報は既に登録されています"
+  },
+  "4016": {
+    "level": "ERROR",
+    "message": "タグ情報は既に登録されています"
+  },
+  "4017": {
+    "level": "ERROR",
+    "message": "タグが見つかりません"
+  },
+  "4018": {
+    "level": "ERROR",
+    "message": "操作を実行する権限がありません"
+  },
+  "4019": {
+    "level": "ERROR",
+    "message": "こちらのメールアドレスは既に登録されております"
+  },
+  "4020": {
+    "level": "ERROR",
+    "message": "ユーザー情報を確認できません"
+  },
+  "4021": {
+    "level": "ERROR",
+    "message": "操作を実行する権限がありません"
+  },
+  "4022": {
+    "level": "ERROR",
+    "message": "会社情報が見つかりません"
+  },
+  "4023": {
+    "level": "ERROR",
+    "message": "こちらの画面にアクセスする権限がありません"
+  },
+  "4024": {
+    "level": "ERROR",
+    "message": "無効な引数です"
+  },
+  "4025": {
+    "level": "ERROR",
+    "message": "メソッドが許可されておりません"
+  },
+  "4026": {
+    "level": "ERROR",
+    "message": "運営会社情報が既に表示されております"
+  },
+  "4027": {
+    "level": "ERROR",
+    "message": "運営会社情報は既に非表示になっております"
+  },
+  "4028": {
+    "level": "ERROR",
+    "message": "デフォルトのメタタグ情報は編集できません"
+  },
+  "4029": {
+    "level": "ERROR",
+    "message": "ファイルが無効です"
+  },
+  "4030": {
+    "level": "ERROR",
+    "message": "画面タイプが入力されておりません"
+  },
+  "4031": {
+    "level": "ERROR",
+    "message": "セクションが入力されておりません"
+  },
+  "4032": {
+    "level": "ERROR",
+    "message": "無効なCSVフォーマットです"
+  },
+  "4033": {
+    "level": "ERROR",
+    "message": "無効なセクションです"
+  },
+  "4034": {
+    "level": "ERROR",
+    "message": "無効な画面タイプです"
+  },
+  "4035": {
+    "level": "ERROR",
+    "message": "静的な画面は削除できません"
+  },
+  "4036": {
+    "level": "ERROR",
+    "message": "セクションのコンテンツが見つかりません"
+  },
+  "4037": {
+    "level": "ERROR",
+    "message": "ユーザー情報が見つかりません"
+  },
+  "4039": {
+    "level": "ERROR",
+    "message": "クラスターが見つかりません"
+  },
+  "4040": {
+    "level": "ERROR",
+    "message": "マルチパートファイルの変換に失敗しました"
+  },
+  "4041": {
+    "level": "ERROR",
+    "message": "ファイルのアップロードに失敗しました"
+  },
+  "4042": {
+    "level": "ERROR",
+    "message": "カテゴリが見つかりません"
+  },
+  "4043": {
+    "level": "ERROR",
+    "message": "カテゴリが既に存在します"
+  },
+  "4044": {
+    "level": "ERROR",
+    "message": "カテゴリが上位のカテゴリではありません"
+  },
+  "4045": {
+    "level": "ERROR",
+    "message": "見つかりません"
+  },
+  "4046": {
+    "level": "ERROR",
+    "message": "オケージョンが見つかりません"
+  },
+  "4047": {
+    "level": "ERROR",
+    "message": "画像の形式がサポートされておりません"
+  },
+  "4048": {
+    "level": "ERROR",
+    "message": "ポリシーが見つかりません"
+  },
+  "4049": {
+    "level": "ERROR",
+    "message": "期間が見つかりません"
+  },
+  "4051": {
+    "level": "ERROR",
+    "message": "理論値が見つかりません"
+  },
+  "4052": {
+    "level": "ERROR",
+    "message": "ポリシータイプのIDが見つかりません"
+  },
+  "4053": {
+    "level": "ERROR",
+    "message": "合計が見つかりません"
+  },
+  "4054": {
+    "level": "ERROR",
+    "message": "カテゴリIDが見つかりません"
+  },
+  "4055": {
+    "level": "ERROR",
+    "message": "カテゴリが見つかりません"
+  },
+  "4056": {
+    "level": "ERROR",
+    "message": "クライアントIDが見つかりません"
+  },
+  "4057": {
+    "level": "ERROR",
+    "message": "ロジックIDが見つかりません"
+  },
+  "4058": {
+    "level": "ERROR",
+    "message": "公開リクエストが見つかりません"
+  },
+  "4059": {
+    "level": "ERROR",
+    "message": "無効な公開リクエストです"
+  },
+  "4060": {
+    "level": "ERROR",
+    "message": "無効な時間が設定されています"
+  },
+  "4061": {
+    "level": "ERROR",
+    "message": "既にリクエストされています"
+  },
+  "4062": {
+    "level": "ERROR",
+    "message": "プロダクトIDが見つかりません"
+  },
+  "4063": {
+    "level": "ERROR",
+    "message": "コーディネートIDが見つかりません"
+  },
+  "4064": {
+    "level": "ERROR",
+    "message": "無効な商品形式です"
+  },
+  "4065": {
+    "level": "ERROR",
+    "message": "無効なコーディネート形式です"
+  },
+  "4066": {
+    "level": "ERROR",
+    "message": "Invalid request active status"
+  },
+  "4067": {
+    "level": "ERROR",
+    "message": "パスワードが一致しません"
+  },
+  "4068": {
+    "level": "ERROR",
+    "message": "商品が見つかりません"
+  },
+  "4069": {
+    "level": "ERROR",
+    "message": "ビデオが見つかりません"
+  },
+  "4070": {
+    "level": "ERROR",
+    "message": "無効な公開リクエスト形式です"
+  },
+  "4072": {
+    "level": "ERROR",
+    "message": "コンテンツの有効化ステータスが見つかりません"
+  },
+  "4074": {
+    "level": "ERROR",
+    "message": "ファイルが見つかりません"
+  },
+  "4075": {
+    "level": "ERROR",
+    "message": "サポートされていないビデオ形式です"
+  },
+  "4077": {
+    "level": "ERROR",
+    "message": "コンテンツが見つかりません"
+  },
+  "4078": {
+    "level": "ERROR",
+    "message": "無効なパッケージIDです"
+  },
+  "4079": {
+    "level": "ERROR",
+    "message": "無効なコンテンツ形式です"
+  },
+  "4073": {
+    "level": "ERROR",
+    "message": "無効なリクエストです"
+  },
+  "4080": {
+    "level": "ERROR",
+    "message": "アクセストークンが必要です"
+  },
+  "4081": {
+    "level": "ERROR",
+    "message": "無効なアクセストークンです"
+  },
+  "4082": {
+    "level": "ERROR",
+    "message": "オケージョンページが見つかりません"
+  },
+  "4083": {
+    "level": "ERROR",
+    "message": "情報が不十分です"
+  },
+  "4084": {
+    "level": "ERROR",
+    "message": "不正なJsonです"
+  },
+  "4085": {
+    "level": "ERROR",
+    "message": "会社情報が見つかりません"
+  },
+  "4086": {
+    "level": "ERROR",
+    "message": "職業情報が無効です"
+  },
+  "4087": {
+    "level": "ERROR",
+    "message": "情報が更新されていません"
+  },
+  "4088": {
+    "level": "ERROR",
+    "message": "SNSに誤りがあります"
+  },
+  "4089": {
+    "level": "ERROR",
+    "message": "無効な画面名の形式です"
+  },
+  "4090": {
+    "level": "ERROR",
+    "message": "エントリーに重複があります"
+  },
+  "4091": {
+    "level": "ERROR",
+    "message": "Twitter exception"
+  },
+  "4092": {
+    "level": "ERROR",
+    "message": "通知が見つかりません"
+  },
+  "4093": {
+    "level": "ERROR",
+    "message": "在庫が見つかりません"
+  },
+  "4094": {
+    "level": "ERROR",
+    "message": "住所が見つかりません"
+  },
+  "4095": {
+    "level": "ERROR",
+    "message": "ホテルが見つかりません"
+  },
+  "4096": {
+    "level": "ERROR",
+    "message": "お客様情報が見つかりません"
+  },
+  "4097": {
+    "level": "ERROR",
+    "message": "お客様のカードが見つかりません"
+  },
+  "4098": {
+    "level": "ERROR",
+    "message": "ユーザー情報が見つかりません"
+  },
+  "4099": {
+    "level": "ERROR",
+    "message": "注文情報が無効です"
+  },
+  "4100": {
+    "level": "ERROR",
+    "message": "名前の長さが有効ではありません"
+  },
+  "4101": {
+    "level": "ERROR",
+    "message": "画像サイズが超過しております"
+  },
+  "4102": {
+    "level": "ERROR",
+    "message": "電話番号が有効ではありません"
+  },
+  "4103": {
+    "level": "ERROR",
+    "message": "H1タグの文字数が超過しております"
+  },
+  "4104": {
+    "level": "ERROR",
+    "message": "コンテンツの文字数が超過しております"
+  },
+  "4105": {
+    "level": "ERROR",
+    "message": "既にキャプチャされています"
+  },
+  "4106": {
+    "level": "ERROR",
+    "message": "決済情報が見つかりません"
+  },
+  "4107": {
+    "level": "ERROR",
+    "message": "パスワードは8文字以上32文字以内に設定してください"
+  },
+  "4108": {
+    "level": "ERROR",
+    "message": "ニックネームを設定してください"
+  },
+  "4109": {
+    "level": "ERROR",
+    "message": "ニックネームの最大文字数は100文字です"
+  },
+  "4110": {
+    "level": "ERROR",
+    "message": "姓名は必須登録事項です"
+  },
+  "4111": {
+    "level": "ERROR",
+    "message": "お名前は40文字以内に設定してください"
+  },
+  "4112": {
+    "level": "ERROR",
+    "message": "姓名は必須登録事項です"
+  },
+  "4113": {
+    "level": "ERROR",
+    "message": "姓は25文字以内に設定してください"
+  },
+  "4114": {
+    "level": "ERROR",
+    "message": "お名前は50文字以内に設定してください"
+  },
+  "4115": {
+    "level": "ERROR",
+    "message": "Reading must not be empty"
+  },
+  "4116": {
+    "level": "ERROR",
+    "message": "Reading maximum size 50"
+  },
+  "4117": {
+    "level": "ERROR",
+    "message": "郵便番号を入力してください"
+  },
+  "4118": {
+    "level": "ERROR",
+    "message": "郵便番号は8桁以内で入力してください"
+  },
+  "4119": {
+    "level": "ERROR",
+    "message": "市区町村を入力してください"
+  },
+  "4120": {
+    "level": "ERROR",
+    "message": "市区町村は50文字以内で登録してください"
+  },
+  "4121": {
+    "level": "ERROR",
+    "message": "住所情報を登録してください"
+  },
+  "4122": {
+    "level": "ERROR",
+    "message": "ユーザーアカウントが凍結されました"
+  },
+  "4123": {
+    "level": "ERROR",
+    "message": "お問い合わせ内容を入力してください"
+  },
+  "4124": {
+    "level": "ERROR",
+    "message": "お問い合わせ内容の最大文字数は2000文字です"
+  },
+  "4125": {
+    "level": "ERROR",
+    "message": "姓名（かな）を入力してください"
+  },
+  "4126": {
+    "level": "ERROR",
+    "message": "姓名（かな）を入力してください"
+  },
+  "4127": {
+    "level": "ERROR",
+    "message": "生年月日を入力してください"
+  },
+  "4128": {
+    "level": "ERROR",
+    "message": "姓名（かな）を40文字以内で入力してください"
+  },
+  "4129": {
+    "level": "ERROR",
+    "message": "姓名（かな）を40文字以内で入力してください"
+  },
+  "4130": {
+    "level": "ERROR",
+    "message": "アップロードしたファイルのURLの生成に失敗しました"
+  },
+  "4131": {
+    "level": "ERROR",
+    "message": "商品が見つかりません"
+  },
+  "4132": {
+    "level": "ERROR",
+    "message": "画像が見つかりません"
+  },
+  "4133": {
+    "level": "ERROR",
+    "message": "ブランドが見つかりません"
+  },
+  "4134": {
+    "level": "ERROR",
+    "message": "アイテムがアップデートされましたが、メールの送信に失敗しました"
+  },
+  "4135": {
+    "level": "ERROR",
+    "message": "アイテムの形式が見つかりません"
+  },
+  "4136": {
+    "level": "ERROR",
+    "message": "組み合わせの形式に誤りがあります"
+  },
+  "4137": {
+    "level": "ERROR",
+    "message": "この商品は本物ではない可能性があるため、お取り扱いができません。"
+  },
+  "4138": {
+    "level": "ERROR",
+    "message": "パラメータ値がありません"
+  },
+  "4139": {
+    "level": "ERROR",
+    "message": "この操作は現時点では許可されておりません"
+  },
+  "4140": {
+    "level": "ERROR",
+    "message": "返送先の住所が見つかりません"
+  },
+  "4141": {
+    "level": "ERROR",
+    "message": "掲載中の商品があるため、退会することができません"
+  },
+  "4142": {
+    "level": "ERROR",
+    "message": "こちらのアカウントは既に退会されています"
+  },
+  "4143": {
+    "level": "ERROR",
+    "message": "キャンセル申請に誤りがあります"
+  },
+  "4144": {
+    "level": "ERROR",
+    "message": "こちらの商品は既に売り切れております"
+  },
+  "4145": {
+    "level": "ERROR",
+    "message": "キャンセル申請したユーザ情報に誤りがあります"
+  },
+  "4146": {
+    "level": "ERROR",
+    "message": "支払い方法に誤りがあります"
+  },
+  "4147": {
+    "level": "ERROR",
+    "message": "Seller ID in o request is invalid"
+  },
+  "4148": {
+    "level": "ERROR",
+    "message": "注文形式が不足しております"
+  },
+  "4149": {
+    "level": "ERROR",
+    "message": "到着前の商品がございますので退会できません"
+  },
+  "4150": {
+    "level": "ERROR",
+    "message": "こちらの配送伝票番号は既に使用されています"
+  },
+  "4151": {
+    "level": "ERROR",
+    "message": "既に登録されているSNSアカウントです"
+  },
+  "4152": {
+    "level": "ERROR",
+    "message": "商品画像を一枚以上アップロードしてください"
+  },
+  "4153": {
+    "level": "ERROR",
+    "message": "ご住所を登録してください"
+  },
+  "4154": {
+    "level": "ERROR",
+    "message": "こちらのアカウントは利用制限中です"
+  },
+  "4155": {
+    "level": "ERROR",
+    "message": "ギフトラッピング情報が見つかりません"
+  },
+  "4156": {
+    "level": "ERROR",
+    "message": "カード設定用のシークレットキーを取得できません"
+  },
+  "4157": {
+    "level": "ERROR",
+    "message": "カード情報を登録してください"
+  },
+  "4158": {
+    "level": "ERROR",
+    "message": "お支払い認証情報を取得できませんでした"
+  },
+  "4159": {
+    "level": "ERROR",
+    "message": "指定された支払い方法が無効です"
+  },
+  "4160": {
+    "level": "ERROR",
+    "message": "サービス利用開始のためのメールを確認し、アカウントを有効化してください"
+  },
+  "4161": {
+    "level": "ERROR",
+    "message": "メッセージは既に送信されています"
+  },
+  "4162": {
+    "level": "ERROR",
+    "message": "JSON作成中にエラーが発生しました"
+  },
+  "4163": {
+    "level": "ERROR",
+    "message": "無効な出品期間の延長リクエストです"
+  },
+  "4164": {
+    "level": "ERROR",
+    "message": "無効な返品リクエストです"
+  },
+  "4165": {
+    "level": "ERROR",
+    "message": "返品リクエストを実行するためのユーザ情報が無効です"
+  },
+  "4166": {
+    "level": "ERROR",
+    "message": "商品名は200文字以内に設定してください"
+  },
+  "4167": {
+    "level": "ERROR",
+    "message": "商品説明文は2000文字以内に設定してください"
+  },
+  "4168": {
+    "level": "ERROR",
+    "message": "アイテムのサイズは200文字以内に設定してください"
+  },
+  "4169": {
+    "level": "ERROR",
+    "message": "デザイナー・時期は50文字以内に設定してください"
+  },
+  "4170": {
+    "level": "ERROR",
+    "message": "ブランドは既に存在しております"
+  },
+  "5000": {
+    "level": "ERROR",
+    "message": "サーバーでエラーが発生しました"
+  },
+  "5001": {
+    "level": "ERROR",
+    "message": "メールサーバーからメールを送信することができませんでした"
+  },
+  "5002": {
+    "level": "ERROR",
+    "message": "注文情報の作成に失敗しました"
+  },
+  "5100": {
+    "level": "ERROR",
+    "message": "決済エラーが発生しました"
+  }
+}

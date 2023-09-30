@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'com.laplace.api'
+version '1.0.0'
+
+sourceCompatibility = 11
+
+apply plugin: 'java-library'
+
+archivesBaseName = 'laplace-file-management'
+
+dependencies {
+    implementation project(':service-common')
+    implementation project(':security-common')
+}
+
+
+

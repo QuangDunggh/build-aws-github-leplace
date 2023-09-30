@@ -1,0 +1,54 @@
+version: '2.0'
+services:
+  db:
+    container_name: laplace-db
+    image: mysql:8.0.20
+    command: ["--default-authentication-plugin=mysql_native_password"]
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_PASSWORD: root
+      MYSQL_DATABASE: laplace_local
+    volumes:
+      - dbdata:/var/lib/mysql
+
+  elasticsearch:
+    container_name: laplace-es
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.9.3
+    environment:
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms100m -Xmx200m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - elasticsearch:/usr/share/elasticsearch/data:rw
+    ports:
+      - 9200:9200
+      - 9300:9300
+
+  kibana:
+    depends_on:
+      - elasticsearch
+    container_name: laplace-kibana
+    image: docker.elastic.co/kibana/kibana:7.9.3
+    ports:
+      - 5601:5601
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+
+  redis:
+    container_name: laplace-redis
+    image: redis:latest
+    ports:
+      - 63790:6379
+    volumes:
+      - redis:/usr/share/laplace/redis/data
+volumes:
+  elasticsearch:
+    driver: local
+  redis:
+  dbdata:

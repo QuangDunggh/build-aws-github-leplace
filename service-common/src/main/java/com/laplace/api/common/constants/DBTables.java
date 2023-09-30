@@ -1,0 +1,63 @@
+package com.laplace.api.common.constants;
+
+
+public class DBTables {
+
+  public static final String ADMIN_USERS = "admin_users";
+  public static final String ROLES = "roles";
+  public static final String ENTITIES = "entities";
+  public static final String ROLE_ENTITY_PERMISSIONS = "role_entity_permissions";
+  public static final String VERIFICATION_TOKENS = "verification_tokens";
+  public static final String USER_PROFILES = "user_profiles";
+  public static final String NOTIFICATION_EMAIL = "notification_email";
+  public static final String USERS_ROLES = "users_roles";
+  public static final String PAGE = "page";
+  public static final String SEO_META_TAG = "seo_meta_tags";
+  public static final String COMPANY_INFO = "company_info";
+  public static final String PAGE_DETAILS = "page_details";
+  public static final String HOTEL_INFO = "hotel_info";
+  public static final String INQUIRY = "inquiry";
+  public static final String BRANDS = "brands";
+  public static final String CLUSTERS = "clusters";
+  public static final String CATEGORIES = "categories";
+  public static final String OCCASIONS = "occasions";
+  public static final String TAG_ATTRIBUTES = "tag_attributes";
+  public static final String POLICY = "policy";
+  public static final String POLICY_DETAILS = "policy_details";
+  public static final String PRODUCTS = "products";
+  public static final String COORDINATES = "coordinates";
+  public static final String PHOTO_COORDINATES = "photo_coordinates";
+  public static final String GOODS_COORDINATES = "goods_coordinates";
+  public static final String PUBLISH_REQUEST = "publish_request";
+  public static final String MOVIES = "movies";
+  public static final String MOVIE_COUNT = "movie_count";
+  public static final String NOTIFICATION = "notification";
+  public static final String NOTIFICATION_COUNT = "notification_count";
+  public static final String ADMIN_NOTICE = "admin_notice";
+  public static final String APP_USERS = "app_users";
+  public static final String RENTAL_DISCOUNTS = "rental_discounts";
+  public static final String PAYMENTS = "payments";
+  public static final String ORDERS = "orders";
+  public static final String APP_USER_PROFILE = "app_user_profiles";
+  public static final String SELLER_PROFILE = "seller_profile";
+  public static final String PROFESSIONS = "professions";
+  public static final String SCENE_OF_INTEREST = "scene_of_interest";
+  public static final String BODY_MEASUREMENT = "body_measurement";
+  public static final String PACKAGE_CREDENTIAL = "package_credentials";
+  public static final String USER_PACKAGE_ACCESS_TOKEN = "user_package_access_token";
+  public static final String ADDRESSES = "addresses";
+  public static final String USER_BANK_ACCOUNT = "user_bank_account";
+  public static final String ITEMS = "items";
+  public static final String ITEM_CATEGORY = "item_category";
+  public static final String ITEM_TYPE = "item_type";
+  public static final String ITEM_PRICE = "item_price";
+  public static final String ITEM_IMAGE = "item_images";
+  public static final String ITEM_PACKAGE = "item_package";
+  public static final String FAVORITE = "favorite";
+  public static final String FOLLOW = "follow";
+  public static final String ACCOUNT_WITHDRAW_REASONS = "account_withdraw_reasons";
+  public static final String INITIAL_SETTINGS = "initial_settings";
+  public static final String GIFT_WRAPPING_OPTION = "gift_wrapping_option";
+  public static final String SUBSCRIPTIONS = "subscriptions";
+  public static final String PRICE_NEGOTIATION = "price_negotiation";
+}
